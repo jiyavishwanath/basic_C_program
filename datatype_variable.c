@@ -3,7 +3,7 @@
 
 //Datatype:type of data that variable store.
 //variable: place to store data.
-globle=100; //globle variable
+int global=100; //globle variable
 // -------- FUNCTION ----------
 int add(int a, int b) {
     return a + b;
@@ -151,9 +151,8 @@ void sizeofdatatype(){
 // MAIN MENU
 
 int main() {
-    int choice,option;
-    printf("globle variable\n");
-    scanf("%d",&globle);
+    int choice;
+    
 
     do {
         printf("\n===== C PROGRAM MENU =====\n");
@@ -180,9 +179,11 @@ int main() {
             case 0: printf("Exiting...\n"); break;
             default: printf("Invalid choice!\n");
         }
+
         
 
     } while(choice!= 0);
+printf("\n \ngloble variable %d\n",global);
 
     return 0;
 }
