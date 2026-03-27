@@ -25,18 +25,15 @@ int main() {
 
 ### 2️⃣ Data Types & Variables (All-in-One Program)
 
-* Covers all basic concepts of C:
+## 📚 Topics Covered
 
-  * int, float, double, char
-  * bool
-  * constants
-  * type casting
-  * sizeof
-  * user input
-  * static variables
-  * signed & unsigned
-  * strings
----
+* Data Types
+* Variables
+* Input/Output
+* Constants
+* Type Casting
+* Memory Size (sizeof)
+* Basic Syntax
 ## 💻 Output
 ```
 Integer (age) = 20
@@ -58,15 +55,7 @@ Multiple Variables:
 age before update: 20
 age after Updated : 25
 ```
-## 📚 Topics Covered
 
-* Data Types
-* Variables
-* Input/Output
-* Constants
-* Type Casting
-* Memory Size (sizeof)
-* Basic Syntax
 
 ---
 
